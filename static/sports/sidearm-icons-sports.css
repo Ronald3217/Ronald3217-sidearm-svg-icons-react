@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "sidearm-icons-sports";
+  src: url("./fonts/sidearm-icons-sports.woff2") format("woff2"),
+url("./fonts/sidearm-icons-sports.woff") format("woff");
+}
+
+.sf-sports::before,
+[class^="sf-sports-"]::before,
+[class*=" sf-sports-"]::before {
+  display: inline-block;
+  font-family: sidearm-icons-sports !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sf-icon-sport-all-sports::before { content: "\f101"; }
+.sf-icon-sport-alpine::before { content: "\f102"; }
+.sf-icon-sport-badminton::before { content: "\f103"; }
+.sf-icon-sport-baseball::before { content: "\f104"; }
+.sf-icon-sport-basketball::before { content: "\f105"; }
+.sf-icon-sport-bowling::before { content: "\f106"; }
+.sf-icon-sport-cheer::before { content: "\f107"; }
+.sf-icon-sport-crew::before { content: "\f108"; }
+.sf-icon-sport-cricket::before { content: "\f109"; }
+.sf-icon-sport-cross-country::before { content: "\f10a"; }
+.sf-icon-sport-curling::before { content: "\f10b"; }
+.sf-icon-sport-cycling::before { content: "\f10c"; }
+.sf-icon-sport-dance::before { content: "\f10d"; }
+.sf-icon-sport-e-sports::before { content: "\f10e"; }
+.sf-icon-sport-equestrian::before { content: "\f10f"; }
+.sf-icon-sport-fastpitch::before { content: "\f110"; }
+.sf-icon-sport-fencing::before { content: "\f111"; }
+.sf-icon-sport-field-hockey::before { content: "\f112"; }
+.sf-icon-sport-figure-skate::before { content: "\f113"; }
+.sf-icon-sport-flag-football::before { content: "\f114"; }
+.sf-icon-sport-football::before { content: "\f115"; }
+.sf-icon-sport-golf::before { content: "\f116"; }
+.sf-icon-sport-gymnastics::before { content: "\f117"; }
+.sf-icon-sport-hockey::before { content: "\f118"; }
+.sf-icon-sport-lacrosse::before { content: "\f119"; }
+.sf-icon-sport-mountain-biking::before { content: "\f11a"; }
+.sf-icon-sport-nordic::before { content: "\f11b"; }
+.sf-icon-sport-polo::before { content: "\f11c"; }
+.sf-icon-sport-quidditch::before { content: "\f11d"; }
+.sf-icon-sport-rifle::before { content: "\f11e"; }
+.sf-icon-sport-rodeo::before { content: "\f11f"; }
+.sf-icon-sport-rowing::before { content: "\f120"; }
+.sf-icon-sport-rugby::before { content: "\f121"; }
+.sf-icon-sport-saac::before { content: "\f122"; }
+.sf-icon-sport-sailing::before { content: "\f123"; }
+.sf-icon-sport-soccer::before { content: "\f124"; }
+.sf-icon-sport-softball::before { content: "\f125"; }
+.sf-icon-sport-squash::before { content: "\f126"; }
+.sf-icon-sport-swim::before { content: "\f127"; }
+.sf-icon-sport-swimming::before { content: "\f128"; }
+.sf-icon-sport-sync-skate::before { content: "\f129"; }
+.sf-icon-sport-sync-swim::before { content: "\f12a"; }
+.sf-icon-sport-table-tennis::before { content: "\f12b"; }
+.sf-icon-sport-tennis-1::before { content: "\f12c"; }
+.sf-icon-sport-tennis::before { content: "\f12d"; }
+.sf-icon-sport-track::before { content: "\f12e"; }
+.sf-icon-sport-triathalon::before { content: "\f12f"; }
+.sf-icon-sport-tumbling-acrobatics::before { content: "\f130"; }
+.sf-icon-sport-volleyball::before { content: "\f131"; }
+.sf-icon-sport-water-polo::before { content: "\f132"; }
+.sf-icon-sport-wheelchair-bball::before { content: "\f133"; }
+.sf-icon-sport-wrestling::before { content: "\f134"; }
+.sf-icon-sport-womens-gymnastics::before { content: "\f135"; }

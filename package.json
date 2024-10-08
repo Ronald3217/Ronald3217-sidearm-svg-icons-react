@@ -1,0 +1,43 @@
+{
+  "name": "sidearm-svg-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main/solid/index.jsx",
+  "module": "dist/main/solid/index.jsx",
+  "type": "module",
+  "files": [
+    "dist/**/*"
+  ],
+  "exports": {
+    ".": "./dist/main/solid/index.jsx",
+    "./outline": "./dist/main/outline/index.jsx",
+    "./sports": "./dist/sports/solid/index.jsx",
+    "./sports-outline": "./dist/sports/outline/index.jsx",
+    "./social": "./dist/social/solid/index.jsx",
+    "./social-outline": "./dist/social/outline/index.jsx"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/convert-svg-to-react.js",
+    "test:component": "node --loader @esbuild-kit/esm-loader testing.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@svgr/webpack": "^8.1.0",
+    "puppeteer": "^23.5.0",
+    "@esbuild-kit/esm-loader": "^2.6.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

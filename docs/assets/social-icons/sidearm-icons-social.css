@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "sidearm-icons-social";
+  src: url("./fonts/sidearm-icons-social.woff2") format("woff2"),
+url("./fonts/sidearm-icons-social.woff") format("woff");
+}
+
+.sf-social::before,
+[class^="sf-social-"]::before,
+[class*=" sf-social-"]::before {
+  display: inline-block;
+  font-family: sidearm-icons-social !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sf-icon-social-apple::before { content: "\f101"; }
+.sf-icon-social-cameo::before { content: "\f102"; }
+.sf-icon-social-facebook-like::before { content: "\f103"; }
+.sf-icon-social-facebook::before { content: "\f104"; }
+.sf-icon-social-flickr::before { content: "\f105"; }
+.sf-icon-social-google::before { content: "\f106"; }
+.sf-icon-social-instagram::before { content: "\f107"; }
+.sf-icon-social-linkedin::before { content: "\f108"; }
+.sf-icon-social-pinterest::before { content: "\f109"; }
+.sf-icon-social-snapchat::before { content: "\f10a"; }
+.sf-icon-social-tiktok::before { content: "\f10b"; }
+.sf-icon-social-twitch::before { content: "\f10c"; }
+.sf-icon-social-twitter-like::before { content: "\f10d"; }
+.sf-icon-social-twitter-message::before { content: "\f10e"; }
+.sf-icon-social-twitter-reply::before { content: "\f10f"; }
+.sf-icon-social-twitter-retweet::before { content: "\f110"; }
+.sf-icon-social-twitter::before { content: "\f111"; }
+.sf-icon-social-vimeo::before { content: "\f112"; }
+.sf-icon-social-wordpress::before { content: "\f113"; }
+.sf-icon-social-youtube::before { content: "\f114"; }
+.sf-icon-social-inflcr::before { content: "\f115"; }
+.sf-icon-social-opendorse::before { content: "\f116"; }
+.sf-icon-social-ear-it::before { content: "\f117"; }
