@@ -1,12 +1,13 @@
 {
-  "name": "sidearm-svg-icons",
+  "name": "sidearm-svg-icons-react",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main/solid/index.jsx",
   "module": "dist/main/solid/index.jsx",
   "type": "module",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "README.md"
   ],
   "exports": {
     ".": "./dist/main/solid/index.jsx",
