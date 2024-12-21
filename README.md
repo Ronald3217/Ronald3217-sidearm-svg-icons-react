@@ -39,6 +39,12 @@ import { IconName } from "sidearm-svg-icons-react/social"
 * Website: https://github.com/Ronald3217
 * Github: [@Ronald3217](https://github.com/Ronald3217)
 
+## Demo
+Read on Github README.md
+
+## Docs
+Read on Github README.md
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
