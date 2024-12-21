@@ -9,6 +9,7 @@
 ### 🏠 [Homepage](https://github.com/Ronald3217/sidearm-svg-icons-react)
 
 ### ✨ [Demo](https://github.com/Ronald3217/sidearm-svg-icons-react#demo)
+### ✨ [Docs](https://github.com/Ronald3217/sidearm-svg-icons-react#docs)
 
 ## Prerequisites
 
